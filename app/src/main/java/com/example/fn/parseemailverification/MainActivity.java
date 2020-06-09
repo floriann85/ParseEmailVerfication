@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         // den Title für die Activity setzen
         setTitle("Welcome");
 
-        // Information einer Installation durch einen User auf einen Gerät,
+        // Information einer Installation durch einen User,
         // diese wird auf dem Server/ Backend gespeichert
         ParseInstallation.getCurrentInstallation().saveInBackground();
 
